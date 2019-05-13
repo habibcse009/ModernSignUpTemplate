@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="-2dp"
+    android:background="@drawable/ic_design_one"
+    android:padding="15dp"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/txtmobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Mobile"
+        android:inputType="phone"
+        android:paddingStart="15dp"
+        android:textColor="#123"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/txtpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtmobile"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="15dp"
+        android:textColor="#123"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/txtpassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/bgbtnonfocus"
+        android:text="Log In"
+        android:textAllCaps="false"
+        android:textColor="#FFEB3B"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/txtaccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonlogin"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="10dp"
+        android:text="Need an Account?"
+        android:paddingStart="15dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="#123"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonsignup"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/txtaccount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bgbtncolorwhite"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textColor="#FFEB3B"
+        android:textSize="26sp" />
+
+</RelativeLayout>
